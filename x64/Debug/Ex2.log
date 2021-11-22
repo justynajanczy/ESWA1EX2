@@ -1,0 +1,22 @@
+﻿  Ex2.c
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentList.h(13,53): warning C4028: formal parameter 1 different from declaration
+  LinkedListImpl.c
+C:\STUDIA\3.1\ESW\A1\Ex2\LinkedListImpl.c(77,20): warning C4553: '==': result of expression not used; did you intend '='?
+C:\STUDIA\3.1\ESW\A1\Ex2\LinkedListImpl.c(164,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
+C:\STUDIA\3.1\ESW\A1\Ex2\LinkedListImpl.c(164,10): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
+C:\STUDIA\3.1\ESW\A1\Ex2\LinkedListImpl.c(167,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
+C:\STUDIA\3.1\ESW\A1\Ex2\LinkedListImpl.c(167,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
+  StudentHandlerImpl.c
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentList.h(13,53): warning C4028: formal parameter 1 different from declaration
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentHandlerImpl.c(30,32): warning C4047: 'function': 'linkedlist_t' differs in levels of indirection from 'student_pt *'
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentHandlerImpl.c(30,31): warning C4024: 'linked_list_peekItemByIndex': different types for formal and actual parameter 1
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentHandlerImpl.c(29,1): warning C4047: 'initializing': 'student_pt *' differs in levels of indirection from 'student_pt'
+  StudentListAdapter.c
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentList.h(13,53): warning C4028: formal parameter 1 different from declaration
+  Generating Code...
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentListAdapter.c(20): warning C4716: 'student_list_add_student': must return a value
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentListAdapter.c(32): warning C4716: 'student_list_remove_student': must return a value
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentListAdapter.c(15): warning C4716: 'student_list_create': must return a value
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentListAdapter.c(27): warning C4716: 'student_list_get_student': must return a value
+C:\STUDIA\3.1\ESW\A1\Ex2\StudentHandlerImpl.c(17): warning C4716: 'student_handler_create': must return a value
+  Ex2.vcxproj -> C:\STUDIA\3.1\ESW\A1\x64\Debug\Ex2.exe
